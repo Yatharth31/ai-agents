@@ -1,0 +1,13 @@
+replicaCount: 1
+
+image:
+  repository: yatharth31/flask-demo-app
+  tag: dev
+
+service:
+  type: NodePort
+  port: 80
+  targetPort: 5000
+
+ingress:
+  enabled: false
