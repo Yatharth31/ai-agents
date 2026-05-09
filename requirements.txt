@@ -1,0 +1,8 @@
+sentence-transformers==2.2.2
+chromadb==0.3.29
+yfinance==0.2.25
+streamlit==1.25.0
+transformers==4.35.2
+huggingface-hub==0.25.2
+pytest==7.4.0
+apscheduler==3.10.1
